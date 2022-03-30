@@ -92,6 +92,21 @@ input{
     align-self: center; /*Componente se alinha dentro do próprio pai */
 }
 
+.btn2{
+    width: 120px;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 0;
+    color: #e6005a;
+    align-self: center;
+    background-color: white;
+    border: 2px solid #e6005a;
+}
+
 .banner .card{
     background-color: #e5e5e5;
     height: 450px;
@@ -101,4 +116,12 @@ input{
     align-items: center;
     flex-direction: column;
     color: #e6005a
+}
+
+.button_container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
 }
